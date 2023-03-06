@@ -6,12 +6,6 @@ import threading
 import numpy
 
 def compute_height(n, parents):
-    # Write this function
-    max_height = 0
-    # Your code here
-    return max_height
-
-def compute_height(n, parents):
     root = None
     position = [[] for _ in range(n)]
     for i in range(n):
